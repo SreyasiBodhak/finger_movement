@@ -24,34 +24,24 @@ void loop() {
 //  opens fingers
 
   Index.write(0);
-  delay(300);
   Ring.write(0);
-  delay(300);
   Middle.write(0);
-  delay(300);
-  pinky.write(0);
-  delay(300);
+  Pinky.write(0);
   Thumb.write(0);
-  delay(300);
+  delay(350);
 
 // closes fingers
+
   Index.write(180);
-  delay(300);
   Ring.write(180);
-  delay(300);
   Middle.write(180);
-  delay(300);
-  pinky.write(180);
-  delay(300);
+  Pinky.write(180);
   Thumb.write(180);
-  delay(300);
+  delay(350);
 
 
 
-
-
-
-
+// sre
 
 
 }
